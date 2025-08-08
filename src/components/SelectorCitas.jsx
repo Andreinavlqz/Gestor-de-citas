@@ -37,7 +37,8 @@ export default function SelectorCitas({listaDeCitas, seleccionarCita, selectCita
             onClick={() => reservarCita(seleccionarCita.id)}>
                 Reservar cita 
             </button>
-            <button className=' bg-red-600 px-2 py-1 ml-4 text-white rounded-md'
+            <button 
+            className=' bg-red-600 px-2 py-1 ml-4 text-white rounded-md'
             onClick={resetFormulario}>
                 Resetear formulario
             </button>
